@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #005c97, #4c8ca5);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.content {
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.simulasi-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007acc;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005f8a;
+}
+
+.video-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.video-thumbnails {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.video-thumbnails a {
+  text-decoration: none;
+  color: white;
+}
+
+.video-thumbnails img {
+  width: 200px;
+  height: 113px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.video-thumbnails img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
